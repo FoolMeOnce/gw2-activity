@@ -1,0 +1,30 @@
+{
+    "name": "Guild Wars 2 - Achievement Activity",
+    "description": "Adds a column to the Guild Wars 2 leaderboards to enable easy activity tracking.",
+    "version": "0.12",
+    "manifest_version": 2,
+    "options_page": "options.html",
+    "content_scripts": [
+    {
+      "matches": ["https://leaderboards.guildwars2.com/*"],
+      "js": ["js/jquery-2.1.0.min.js", "js/script.js"],
+      "css": ["css/style.css"]
+    }],
+    "browser_action": {
+        "default_title": "GW2 Guild Activity",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}

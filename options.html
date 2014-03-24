@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GW2 Guild Activity Options</title>
+        <style>
+        body {
+            font-family:helvetica, arial, sans-serif;
+            font-size: 90%;
+        }
+        </style>
+    </head>
+    <body>
+    <h1>Guild Activity - Options</h1>
+        <table>
+            <tr>
+                <td>
+                    Color-code column:
+                </td>
+                <td>
+                    <input type="checkbox" id="highlight">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Inactivity threshold (days): 
+                </td>
+                <td>
+                    <input type="text" id="threshold" size="4">
+                </td>
+            </tr>
+            <tr>
+                <td id="message"></td>
+                <td>
+                    <button id="save">Save</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/options.js"></script>
+    </body>
+</html>

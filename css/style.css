@@ -1,0 +1,15 @@
+
+// extension
+.activity {
+    width: 120px;
+}
+
+tr td.number.active {
+    color: white;
+    background-color: green;
+}
+
+tr td.number.inactive {
+    color: white;
+    background-color: red;
+}
