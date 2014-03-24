@@ -3,7 +3,7 @@ gw2-activity
 
 This is the source code for the Guild Wars 2 - Achievement Activity Chrome extension.
 
-The published extension can be found at:
+The published extension can be found at:<br />
 https://chrome.google.com/webstore/detail/guild-wars-2-achievement/ilclbnmllchoomhpikjodcpaccaglokc
 
 Features:
